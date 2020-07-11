@@ -1,0 +1,68 @@
+#container {
+	width: $lebar-container;
+	margin: $tengah-x;
+}
+
+#main {
+	// operasi matematika
+	width: 600px / $lebar-container * 100%;
+	float: left;
+}
+
+#sidebar {
+	// operasi matematika
+	width: 360px / $lebar-container * 100%;
+	float: left;
+}
+
+h1 {
+	font-family: $font-bersambung;
+	font-size: $font-gede;
+	color: $warna-cerah;
+}
+
+p {
+	font-family: $font-asik;
+	font-size: $font-normal;
+	color: $warna-abu;
+}
+
+// nesting
+ul {
+	li {
+		display: inline-block;
+		list-style: none;
+		font-size: $font-menu;
+		a {
+			// extend
+			@extend %linkBiasa;
+			// pseudo class
+			&:hover {
+				color: black;
+			}
+		}
+	}
+}
+
+.button {
+	width: 200px;
+	padding: 5px;
+	margin: 5px;
+	display: inline-block;
+	color: #5D676C;
+	text-align: center;
+	// mixin - include
+	@include bdrs(10px);
+}
+
+.suka {
+	background-color: rgb(31, 210, 222);
+}
+
+.standard {
+	background-color: rgb(121, 222, 31);
+}
+
+.emosi {
+	background-color: rgb(252, 76, 0);
+}

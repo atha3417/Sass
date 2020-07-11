@@ -1,0 +1,5 @@
+desktop.ini
+*.ini
+thumbs.db
+*.db
+.sass-cache

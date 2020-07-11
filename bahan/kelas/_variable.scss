@@ -1,0 +1,30 @@
+$font-bersambung: 'Lobster', cursive;
+$font-asik: 'Indie Flower', cursive;
+$font-gede: 34px;
+$font-normal: 24px;
+$font-menu: 30px;
+$warna-cerah: rgb(240, 62, 241);
+$warna-abu: grey;
+$lebar-container: 960px;
+$tengah-x: 0 auto;
+
+// extend
+%linkBiasa {
+	color: $warna-abu;
+	text-decoration: none;
+}
+
+%standard {
+	padding: 0;
+	margin: 0;
+}
+
+
+// mixin - include
+@mixin bdrs($radius) {
+	border-radius: $radius;
+	-ms-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-o-border-radius: $radius;
+	-webkit-border-radius: $radius;
+}
