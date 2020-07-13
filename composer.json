@@ -1,0 +1,13 @@
+{
+    "name": "atha/sass",
+    "description": "Just CSS - SASS - SCSS code",
+    "keywords": ["sass", "scss", "css"],
+    "license": "None",
+    "authors": [
+        {
+            "name": "Atha Tsaqif",
+            "email": "atha.3417@gmail.com",
+            "homepage": "http://example.com/"
+        }
+    ]
+}
